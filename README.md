@@ -12,7 +12,7 @@ GreenCart encourages users to make smarter, sustainable shopping choices by trac
 - **Encapsulation** is achieved by organizing data (fields) and behavior (methods) into classes, ensuring that the internal details of objects are hidden from outside interference.
 - For example, in the `ShoppingCart` class, all shopping list items are encapsulated within private fields. Access to these fields is controlled via public methods like `addItem()`, `removeItem()`, and `viewItems()`.
 
-### 2. **Inheritance** 🧑‍💻
+### 2. **Inheritance**👩🏻‍💻
 - **Inheritance** allows the program to create specialized types of items that share common properties from a parent class.
 - The `Item` class serves as the base class, and both `GroceryItem` and `ElectronicItem` inherit from it. This allows for code reuse and simplifies the addition of new item types in the future.
 
@@ -56,7 +56,7 @@ The application strives to make users aware of their consumption patterns, offer
 ### 7. **Sustainable Shopping** ♻️:
    - The program helps users make sustainable shopping decisions by offering suggestions for eco-friendly alternatives and rewarding them for responsible purchasing.
 
-## 🧑‍💼 Conclusion
+## 👩🏻‍💼 Conclusion
 
 GreenCart serves as a practical example of how core OOP principles can be applied to real-world problems while also promoting sustainability. The program helps users make smarter, more eco-friendly shopping choices by tracking their spending, providing tips for responsible consumption, and offering a rewards system for making sustainable purchases.
 
