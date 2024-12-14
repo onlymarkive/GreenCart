@@ -22,7 +22,7 @@ GreenCart encourages users to make smarter, sustainable shopping choices by trac
 
 ### 4. **Abstraction** 🧩
 - **Abstraction** is used to hide the complexity of the implementation from the user while exposing necessary functionalities.
-- The `Item` class is abstract, meaning that it provides the structure for its subclasses, but does not provide a full implementation. Specific details like calculating prices are handled in the `GroceryItem` and `ElectronicItem` subclasses.
+- The `Item` class is abstract, meaning that it provides the structure for its subclasses, but does not provide a full implementation. Specific details like calculating prices are handled in the `GroceryItem`, `HouseholdItem`, `ClothingItem`, `StationeryItem`, and `ElectronicItem` subclasses.
 
 ## 🌱 Sustainable Development Goal (SDG) 12: Responsible Consumption and Production ♻️
 
