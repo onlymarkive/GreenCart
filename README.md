@@ -10,7 +10,7 @@ GreenCart encourages users to make smarter, sustainable shopping choices by trac
 
 ### 1. **Encapsulation** 🔒
 - **Encapsulation** is achieved by organizing data (fields) and behavior (methods) into classes, ensuring that the internal details of objects are hidden from outside interference.
-- For example, in the `ShoppingCart` class, all shopping list items are encapsulated within private fields. Access to these fields is controlled via public methods like `addItem()`, `removeItem()`, and `viewItems()`.
+- For example, in the `ShoppingCart` class, all shopping list items are encapsulated within private fields. Access to these fields is controlled via public methods like `addItem()`, and `viewItems()`.
 
 ### 2. **Inheritance**👩🏻‍💻
 - **Inheritance** allows the program to create specialized types of items that share common properties from a parent class.
