@@ -14,11 +14,11 @@ GreenCart encourages users to make smarter, sustainable shopping choices by trac
 
 ### 2. **Inheritance**👩🏻‍💻
 - **Inheritance** allows the program to create specialized types of items that share common properties from a parent class.
-- The `Item` class serves as the base class, and both `GroceryItem` and `ElectronicItem` inherit from it. This allows for code reuse and simplifies the addition of new item types in the future.
+- The `Item` class serves as the base class, where `GroceryItem`, `HouseholdItem`, `ClothingItem`, `StationeryItem`, and `ElectronicItem` inherit from it. This allows for code reuse and simplifies the addition of new item types in the future.
 
 ### 3. **Polymorphism** 🔄
 - **Polymorphism** is implemented through method overloading and method overriding.
-- For example, `addItem()` is overloaded to handle different types of items (groceries and electronics). Additionally, methods like `calculateTotal()` are overridden in subclasses to define specific behavior for different item types.
+- For example, `addItem()` is overloaded to handle different types of items (groceries, household, clothes, stationeries and electronics). Additionally, methods like `calculateTotal()` are overridden in subclasses to define specific behavior for different item types.
 
 ### 4. **Abstraction** 🧩
 - **Abstraction** is used to hide the complexity of the implementation from the user while exposing necessary functionalities.
